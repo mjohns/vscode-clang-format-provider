@@ -13,5 +13,6 @@ for (let l of ['cpp', 'c', 'csharp', 'objective-c', 'objective-cpp', 'java', 'ja
     languages.push(l);
   }
 }
+languages.push('cs');
 
 export const MODES: vscode.DocumentFilter[] = languages.map((language) => ({language, scheme: 'file'}));
