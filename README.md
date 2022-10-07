@@ -1,5 +1,7 @@
 # README
 
+This is a repackaged version of https://marketplace.visualstudio.com/items?itemName=xaver.clang-format which has not updated since 2019 and is out of sync with the corresponding git repo. Notably this newer version contains the changes to support C# formatting.
+
 [Clang-Format](http://clang.llvm.org/docs/ClangFormat.html) is a tool to format C/C++/Java/JavaScript/Objective-C/Objective-C++/Protobuf code. It can be configured with a config file within the working folder or a parent folder. Configuration see: http://clang.llvm.org/docs/ClangFormatStyleOptions.html
 
 
